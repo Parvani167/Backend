@@ -1,6 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors"); // Import CORS
+const db = require("./db");
 
 const authRoutes = require("./api/routes/auth");
 
